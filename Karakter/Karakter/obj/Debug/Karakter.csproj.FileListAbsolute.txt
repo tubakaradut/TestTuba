@@ -1,7 +1,0 @@
-C:\Users\Tuba\Desktop\tubiyeni\Karakter\Karakter\bin\Debug\Karakter.exe.config
-C:\Users\Tuba\Desktop\tubiyeni\Karakter\Karakter\bin\Debug\Karakter.exe
-C:\Users\Tuba\Desktop\tubiyeni\Karakter\Karakter\bin\Debug\Karakter.pdb
-C:\Users\Tuba\Desktop\tubiyeni\Karakter\Karakter\obj\Debug\Karakter.csproj.AssemblyReference.cache
-C:\Users\Tuba\Desktop\tubiyeni\Karakter\Karakter\obj\Debug\Karakter.csproj.CoreCompileInputs.cache
-C:\Users\Tuba\Desktop\tubiyeni\Karakter\Karakter\obj\Debug\Karakter.exe
-C:\Users\Tuba\Desktop\tubiyeni\Karakter\Karakter\obj\Debug\Karakter.pdb
