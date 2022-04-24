@@ -13,14 +13,14 @@ namespace SavasKarakterleri
         public override int Level { get ; set ; }
         public override int Damage { get ; set ; }
 
-        public override void Attack()
+        public override void Attack(int damage)
         {
-            Console.WriteLine($"{Name}  {Damage} şiddetinde ok attı.");
+            Console.WriteLine($"{Name}"+ damage+ " "+" şiddetinde ok attı.");
         }
 
-        public override void Defense()
+        public override void Defense(int damage)
         {
-            Console.WriteLine($"{Name} ok ile savunma yaptı.");
+            Console.WriteLine($"{Name}" + damage + " " + " şiddetinde ok ile savunma yaptı.");
         }
     }
 }

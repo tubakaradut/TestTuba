@@ -4,24 +4,24 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace SavasKarakterleri.Dwarf
+namespace SavasKarakterleri
 {
-  public class Factory
+  public class FactoryD
     {
-        public Dwarf FactoryMethodDwarf(Karkater k)
+        public Dwarf FactoryMethodD(Karkater k)
         {
             Dwarf dwarf = null;
 
             switch (k)
             {
                 case Karkater.Warrior:
-                    dwarf = new Warrior();
+                    dwarf = new WarriorD();
                     break;
                 case Karkater.Hunter:
-                    dwarf = new Hunter();
+                    dwarf = new HunterD();
                     break;
                 case Karkater.Priest:
-                    dwarf = new Priest();
+                    dwarf = new PriestD();
                     break;
             }
             return dwarf;
