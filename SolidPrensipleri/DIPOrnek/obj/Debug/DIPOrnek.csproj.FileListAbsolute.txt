@@ -1,0 +1,7 @@
+C:\Users\Tuba\Desktop\tubiyeni\SolidPrensipleri\DIPOrnek\bin\Debug\DIPOrnek.exe.config
+C:\Users\Tuba\Desktop\tubiyeni\SolidPrensipleri\DIPOrnek\bin\Debug\DIPOrnek.exe
+C:\Users\Tuba\Desktop\tubiyeni\SolidPrensipleri\DIPOrnek\bin\Debug\DIPOrnek.pdb
+C:\Users\Tuba\Desktop\tubiyeni\SolidPrensipleri\DIPOrnek\obj\Debug\DIPOrnek.csproj.CoreCompileInputs.cache
+C:\Users\Tuba\Desktop\tubiyeni\SolidPrensipleri\DIPOrnek\obj\Debug\DIPOrnek.exe
+C:\Users\Tuba\Desktop\tubiyeni\SolidPrensipleri\DIPOrnek\obj\Debug\DIPOrnek.pdb
+C:\Users\Tuba\Desktop\tubiyeni\SolidPrensipleri\DIPOrnek\obj\Debug\DIPOrnek.csproj.AssemblyReference.cache

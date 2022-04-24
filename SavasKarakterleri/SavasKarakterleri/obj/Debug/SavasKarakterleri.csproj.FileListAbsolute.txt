@@ -1,0 +1,7 @@
+C:\Users\Tuba\Desktop\tubiyeni\SavasKarakterleri\SavasKarakterleri\bin\Debug\SavasKarakterleri.exe.config
+C:\Users\Tuba\Desktop\tubiyeni\SavasKarakterleri\SavasKarakterleri\bin\Debug\SavasKarakterleri.exe
+C:\Users\Tuba\Desktop\tubiyeni\SavasKarakterleri\SavasKarakterleri\bin\Debug\SavasKarakterleri.pdb
+C:\Users\Tuba\Desktop\tubiyeni\SavasKarakterleri\SavasKarakterleri\obj\Debug\SavasKarakterleri.csproj.AssemblyReference.cache
+C:\Users\Tuba\Desktop\tubiyeni\SavasKarakterleri\SavasKarakterleri\obj\Debug\SavasKarakterleri.csproj.CoreCompileInputs.cache
+C:\Users\Tuba\Desktop\tubiyeni\SavasKarakterleri\SavasKarakterleri\obj\Debug\SavasKarakterleri.exe
+C:\Users\Tuba\Desktop\tubiyeni\SavasKarakterleri\SavasKarakterleri\obj\Debug\SavasKarakterleri.pdb
