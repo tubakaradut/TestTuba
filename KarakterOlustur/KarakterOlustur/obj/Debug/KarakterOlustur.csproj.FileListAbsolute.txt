@@ -1,7 +1,0 @@
-C:\Users\Tuba\Desktop\tubiyeni\KarakterOlustur\KarakterOlustur\bin\Debug\KarakterOlustur.exe.config
-C:\Users\Tuba\Desktop\tubiyeni\KarakterOlustur\KarakterOlustur\bin\Debug\KarakterOlustur.exe
-C:\Users\Tuba\Desktop\tubiyeni\KarakterOlustur\KarakterOlustur\bin\Debug\KarakterOlustur.pdb
-C:\Users\Tuba\Desktop\tubiyeni\KarakterOlustur\KarakterOlustur\obj\Debug\KarakterOlustur.csproj.AssemblyReference.cache
-C:\Users\Tuba\Desktop\tubiyeni\KarakterOlustur\KarakterOlustur\obj\Debug\KarakterOlustur.csproj.CoreCompileInputs.cache
-C:\Users\Tuba\Desktop\tubiyeni\KarakterOlustur\KarakterOlustur\obj\Debug\KarakterOlustur.exe
-C:\Users\Tuba\Desktop\tubiyeni\KarakterOlustur\KarakterOlustur\obj\Debug\KarakterOlustur.pdb
