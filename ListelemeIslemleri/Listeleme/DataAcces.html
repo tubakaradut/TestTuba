@@ -1,0 +1,31 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8" />
+    <title>DATA ACCES</title>
+</head>
+<body>
+    <h1>DATA ACCES</h1>
+    <p>
+
+        Veritabanı uygulamalarında çok katlı mimari (N-tier) popüler olmakla beraber hayati bir öneme sahiptir. Bu mimari türü, bazı temel işlemlerin farklı katmanlar üzerinden yapılmasını sağlar. Bu modelde veritabanı üzerinde sırasıyla şu katmanlar bulunur:
+    </p>
+    <ul>
+        <li>En altta veri erişim katmanı (Data Access Layer);</li>
+        <li> Ortada iş katmanı (Business Layer);</li>
+        <li> En üstte sunum katmanı (Presentation Layer).</li>
+    </ul>
+
+    <p>
+        Bu katmanlar bağımsız olmakla birlikte biribirleriyle haberleşebilirler. Uygulama ihtiyaçlarına göre bu katmanların kendi alt katmanları da olabilir. Veri erişim katmanı tablolar, stored procedure’lar ve diğer bileşenler ile sağlam bir ilişki kurarak veri mantığını sağlar. Veritabanına esnek, kolay, hızlı ve güvenli erişim sağlamanın yanı sıra diğer katmanlardan bağımsız olarak veritabanı yapılarını mantıksal bir biçimde soyutlar. Örneğin bir tablo satırında yapılan değişiklikler, uygulamanın diğer kısımlarını etkilemez. Diğer katmanlar isteklerini veri katmanına gönderirler. Bu istekleri alan veri katmanı, isteğe göre tablolara kayıt ekleme, silme, kayıt güncelleştirme, stored procedure’lar ile kayıt seçme, dataset geri döndürme gibi işlemleri yapacaktır. Projelerde böyle bir veri erişim katmanın bulunması, veritabanı güvenliği açısından performans, hız, güvenlik ve kod okunabirliği açısından avantajlar sağlar. Örnek olarak, sunum katmanı içindeyken bağlantı cümlesini, bağlantı nesnesi veya komut nesnesi özelliklerini bilmek gerekmiyor. İyi hazırlanmış bir veri erişim katmanı, ileride başka projelerde de rahatlıkla kullanılabilir. Farklı amaçlar için hazırlanmış stored procedure’lar, bazen bir satırı, bir listeyi veya bir sayıyı geri döndürebilirler. Bunları çalıştırmak için çeşitli metodlar yazarız. Bu metodlar komut nesnesi oluşturma, varsa parametrelerin özelliklerini doldurma, çalıştırma ve sonunda bir sonuç veya veri listesi alma şeklinde olabilir. Mantık genelde az farklılık gösterirse de, çoğu zaman benzer adımları tekrar ederiz. Bu gereksiz tekraralardan kaçınmak için yazacağımız sınıf veya sınıflar, bizi benzer kodları defalarca yazmakan kurtarır.
+    </p>
+
+    <br />
+    <br />
+    <br />
+    <br />
+    <br />
+    <br />
+    <a href="index.html">Giriş Sayfası</a>
+</body>
+</html>

@@ -1,0 +1,39 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8" />
+    <title>POLYMORPHISM</title>
+</head>
+<body>
+
+    <h1>POLYMORPHISM</h1>
+    <p>
+        C# Polymorphism, nesne yönelimli programlamanın temel yapı taşlarının arasında yer alan, çok biçimlilik olarak bilinen bir kavramdır. C# polymorphism nedir sorusuna ise programımızda oluşan bir nesne yapısının birbirinden farklı nesneler şeklinde davranmasını sağlayan yapı olarak cevaplayabiliriz
+    </p>
+    <br />
+    <p>
+        Bir temel sınıfın özellik ve metotlarını, temel sınıftan türetilen bir sınıfa aktardığımızda temel sınıfa ait metotları türemiş sınıf içerisinde de kullanabiliriz. Ancak her iki sınıfta da aynı metot bulunduğunda temel sınıftaki metot kullanılacak, türemiş sınıftaki metot ise kullanılmayacaktır. Temel sınıfa ait metotları türemiş sınıfta farklı biçimlerde tanımlayarak kullanmak için <strong>override</strong> ve <strong>virtual</strong> niteleyicilerini kullanmak gereklidir.
+    </p>
+    <br />
+    <ul>
+        <li>
+            <strong>Temel Sınıfın Metotlarını Ezme (Override)</strong>
+            <p>
+                Önceden var olan bir sınıftan miras alınarak, genişletilmiş yeni bir sınıf oluşturduğunuzda, yeni sınıf içerisinde temel sınıfın tüm özellik ve metotları tanımlanmış olur. Bazen parent (ebeveyn) sınıfın üyeleri, özellikleri ve metotları tam olarak child (yavru) sınıftan yaratılan nesneler için uygun olmayabilir.
+                Farklı işlemler yapan fakat aynı isimdeki özellik veya metotların kullanımına çok biçimlilik (polymorphism) denmektedir. Çok biçimlilik, “birçok form içeren” anlamına gelmektedir. Aynı isimde olmalarına rağmen farklı işlemlerin yer aldığı metotlar için kullanılır.
+            </p>
+        </li>
+        <li>
+            <strong>Virtual</strong>
+            <p>
+                Bir virtual metot (ya da property), child sınıftaki aynı isme sahip bir metot tarafından başına override anahtar kelimesi eklenerek ezilmesine olanak sağlar.
+            </p>
+        </li>
+    </ul>
+    <br />
+    <br />
+    <br />
+    <br />
+    <a href="index.html">Giriş Sayfası</a>
+</body>
+</html>
