@@ -1,0 +1,7 @@
+C:\Users\Tuba\Desktop\tubiyeni\SolidPrensipleri\OCPOrnek\bin\Debug\OCPOrnek.exe.config
+C:\Users\Tuba\Desktop\tubiyeni\SolidPrensipleri\OCPOrnek\bin\Debug\OCPOrnek.exe
+C:\Users\Tuba\Desktop\tubiyeni\SolidPrensipleri\OCPOrnek\bin\Debug\OCPOrnek.pdb
+C:\Users\Tuba\Desktop\tubiyeni\SolidPrensipleri\OCPOrnek\obj\Debug\OCPOrnek.csproj.AssemblyReference.cache
+C:\Users\Tuba\Desktop\tubiyeni\SolidPrensipleri\OCPOrnek\obj\Debug\OCPOrnek.csproj.CoreCompileInputs.cache
+C:\Users\Tuba\Desktop\tubiyeni\SolidPrensipleri\OCPOrnek\obj\Debug\OCPOrnek.exe
+C:\Users\Tuba\Desktop\tubiyeni\SolidPrensipleri\OCPOrnek\obj\Debug\OCPOrnek.pdb

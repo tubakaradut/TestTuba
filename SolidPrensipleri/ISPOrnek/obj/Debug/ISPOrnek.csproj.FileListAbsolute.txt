@@ -1,0 +1,7 @@
+C:\Users\Tuba\Desktop\tubiyeni\SolidPrensipleri\ISPOrnek\bin\Debug\ISPOrnek.exe.config
+C:\Users\Tuba\Desktop\tubiyeni\SolidPrensipleri\ISPOrnek\bin\Debug\ISPOrnek.exe
+C:\Users\Tuba\Desktop\tubiyeni\SolidPrensipleri\ISPOrnek\bin\Debug\ISPOrnek.pdb
+C:\Users\Tuba\Desktop\tubiyeni\SolidPrensipleri\ISPOrnek\obj\Debug\ISPOrnek.csproj.AssemblyReference.cache
+C:\Users\Tuba\Desktop\tubiyeni\SolidPrensipleri\ISPOrnek\obj\Debug\ISPOrnek.csproj.CoreCompileInputs.cache
+C:\Users\Tuba\Desktop\tubiyeni\SolidPrensipleri\ISPOrnek\obj\Debug\ISPOrnek.exe
+C:\Users\Tuba\Desktop\tubiyeni\SolidPrensipleri\ISPOrnek\obj\Debug\ISPOrnek.pdb
