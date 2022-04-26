@@ -1,7 +1,0 @@
-C:\Users\Tuba\Desktop\tubiyeni\SolidPrensipleri\SRPOrnek\bin\Debug\SRPOrnek.exe.config
-C:\Users\Tuba\Desktop\tubiyeni\SolidPrensipleri\SRPOrnek\bin\Debug\SRPOrnek.exe
-C:\Users\Tuba\Desktop\tubiyeni\SolidPrensipleri\SRPOrnek\bin\Debug\SRPOrnek.pdb
-C:\Users\Tuba\Desktop\tubiyeni\SolidPrensipleri\SRPOrnek\obj\Debug\SRPOrnek.csproj.AssemblyReference.cache
-C:\Users\Tuba\Desktop\tubiyeni\SolidPrensipleri\SRPOrnek\obj\Debug\SRPOrnek.csproj.CoreCompileInputs.cache
-C:\Users\Tuba\Desktop\tubiyeni\SolidPrensipleri\SRPOrnek\obj\Debug\SRPOrnek.exe
-C:\Users\Tuba\Desktop\tubiyeni\SolidPrensipleri\SRPOrnek\obj\Debug\SRPOrnek.pdb
