@@ -1,7 +1,0 @@
-C:\Users\Tuba\Desktop\OpenClosedP\OpenClosedP\obj\Debug\OpenClosedP.csproj.AssemblyReference.cache
-C:\Users\Tuba\Desktop\OpenClosedP\OpenClosedP\obj\Debug\OpenClosedP.csproj.CoreCompileInputs.cache
-C:\Users\Tuba\Desktop\OpenClosedP\OpenClosedP\bin\Debug\OpenClosedP.exe.config
-C:\Users\Tuba\Desktop\OpenClosedP\OpenClosedP\bin\Debug\OpenClosedP.exe
-C:\Users\Tuba\Desktop\OpenClosedP\OpenClosedP\bin\Debug\OpenClosedP.pdb
-C:\Users\Tuba\Desktop\OpenClosedP\OpenClosedP\obj\Debug\OpenClosedP.exe
-C:\Users\Tuba\Desktop\OpenClosedP\OpenClosedP\obj\Debug\OpenClosedP.pdb
