@@ -1,0 +1,15 @@
+C:\Users\Tuba\Desktop\HastaneOtomasyonu\BLL\bin\Debug\BLL.dll.config
+C:\Users\Tuba\Desktop\HastaneOtomasyonu\BLL\bin\Debug\BLL.dll
+C:\Users\Tuba\Desktop\HastaneOtomasyonu\BLL\bin\Debug\BLL.pdb
+C:\Users\Tuba\Desktop\HastaneOtomasyonu\BLL\bin\Debug\DA.dll
+C:\Users\Tuba\Desktop\HastaneOtomasyonu\BLL\bin\Debug\EntityFramework.dll
+C:\Users\Tuba\Desktop\HastaneOtomasyonu\BLL\bin\Debug\EntityFramework.SqlServer.dll
+C:\Users\Tuba\Desktop\HastaneOtomasyonu\BLL\bin\Debug\DA.pdb
+C:\Users\Tuba\Desktop\HastaneOtomasyonu\BLL\bin\Debug\DA.dll.config
+C:\Users\Tuba\Desktop\HastaneOtomasyonu\BLL\bin\Debug\EntityFramework.xml
+C:\Users\Tuba\Desktop\HastaneOtomasyonu\BLL\bin\Debug\EntityFramework.SqlServer.xml
+C:\Users\Tuba\Desktop\HastaneOtomasyonu\BLL\obj\Debug\BLL.csproj.AssemblyReference.cache
+C:\Users\Tuba\Desktop\HastaneOtomasyonu\BLL\obj\Debug\BLL.csproj.CoreCompileInputs.cache
+C:\Users\Tuba\Desktop\HastaneOtomasyonu\BLL\obj\Debug\BLL.csproj.CopyComplete
+C:\Users\Tuba\Desktop\HastaneOtomasyonu\BLL\obj\Debug\BLL.dll
+C:\Users\Tuba\Desktop\HastaneOtomasyonu\BLL\obj\Debug\BLL.pdb

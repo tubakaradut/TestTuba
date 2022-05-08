@@ -1,0 +1,176 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="15.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="..\packages\EntityFramework.6.4.4\build\EntityFramework.props" Condition="Exists('..\packages\EntityFramework.6.4.4\build\EntityFramework.props')" />
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{5156E0B9-3F98-47E3-9D21-18E2B560FB0C}</ProjectGuid>
+    <OutputType>WinExe</OutputType>
+    <RootNamespace>UIMenu</RootNamespace>
+    <AssemblyName>UIMenu</AssemblyName>
+    <TargetFrameworkVersion>v4.7.2</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+    <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>
+    <Deterministic>true</Deterministic>
+    <NuGetPackageImportStamp>
+    </NuGetPackageImportStamp>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="EntityFramework, Version=6.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089, processorArchitecture=MSIL">
+      <HintPath>..\packages\EntityFramework.6.4.4\lib\net45\EntityFramework.dll</HintPath>
+    </Reference>
+    <Reference Include="EntityFramework.SqlServer, Version=6.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089, processorArchitecture=MSIL">
+      <HintPath>..\packages\EntityFramework.6.4.4\lib\net45\EntityFramework.SqlServer.dll</HintPath>
+    </Reference>
+    <Reference Include="System" />
+    <Reference Include="System.ComponentModel.DataAnnotations" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Deployment" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Net.Http" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="BoyutOlustur.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="BoyutOlustur.Designer.cs">
+      <DependentUpon>BoyutOlustur.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Common\Common.cs" />
+    <Compile Include="EkstraOlustur.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="EkstraOlustur.Designer.cs">
+      <DependentUpon>EkstraOlustur.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Form1.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Form1.Designer.cs">
+      <DependentUpon>Form1.cs</DependentUpon>
+    </Compile>
+    <Compile Include="KrediKartiTanimla.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="KrediKartiTanimla.Designer.cs">
+      <DependentUpon>KrediKartiTanimla.cs</DependentUpon>
+    </Compile>
+    <Compile Include="MenuOlustur.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="MenuOlustur.Designer.cs">
+      <DependentUpon>MenuOlustur.cs</DependentUpon>
+    </Compile>
+    <Compile Include="OdemeEkrani.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="OdemeEkrani.Designer.cs">
+      <DependentUpon>OdemeEkrani.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Program.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="Siparisler.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Siparisler.Designer.cs">
+      <DependentUpon>Siparisler.cs</DependentUpon>
+    </Compile>
+    <Compile Include="SiparisOlustur.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="SiparisOlustur.Designer.cs">
+      <DependentUpon>SiparisOlustur.cs</DependentUpon>
+    </Compile>
+    <EmbeddedResource Include="BoyutOlustur.resx">
+      <DependentUpon>BoyutOlustur.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="EkstraOlustur.resx">
+      <DependentUpon>EkstraOlustur.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Form1.resx">
+      <DependentUpon>Form1.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="KrediKartiTanimla.resx">
+      <DependentUpon>KrediKartiTanimla.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="MenuOlustur.resx">
+      <DependentUpon>MenuOlustur.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="OdemeEkrani.resx">
+      <DependentUpon>OdemeEkrani.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Properties\Resources.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>Resources.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <Compile Include="Properties\Resources.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Resources.resx</DependentUpon>
+    </Compile>
+    <EmbeddedResource Include="Siparisler.resx">
+      <DependentUpon>Siparisler.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="SiparisOlustur.resx">
+      <DependentUpon>SiparisOlustur.cs</DependentUpon>
+    </EmbeddedResource>
+    <None Include="packages.config" />
+    <None Include="Properties\Settings.settings">
+      <Generator>SettingsSingleFileGenerator</Generator>
+      <LastGenOutput>Settings.Designer.cs</LastGenOutput>
+    </None>
+    <Compile Include="Properties\Settings.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Settings.settings</DependentUpon>
+      <DesignTimeSharedInput>True</DesignTimeSharedInput>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="App.config" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\Business\Business.csproj">
+      <Project>{c29b7d5f-7ec0-4b20-8c41-85919c1d7e8e}</Project>
+      <Name>Business</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\DataAcces\DataAcces.csproj">
+      <Project>{13745125-10ec-49fb-a6e4-602e12f14ed0}</Project>
+      <Name>DataAcces</Name>
+    </ProjectReference>
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <Target Name="EnsureNuGetPackageBuildImports" BeforeTargets="PrepareForBuild">
+    <PropertyGroup>
+      <ErrorText>This project references NuGet package(s) that are missing on this computer. Use NuGet Package Restore to download them.  For more information, see http://go.microsoft.com/fwlink/?LinkID=322105. The missing file is {0}.</ErrorText>
+    </PropertyGroup>
+    <Error Condition="!Exists('..\packages\EntityFramework.6.4.4\build\EntityFramework.props')" Text="$([System.String]::Format('$(ErrorText)', '..\packages\EntityFramework.6.4.4\build\EntityFramework.props'))" />
+    <Error Condition="!Exists('..\packages\EntityFramework.6.4.4\build\EntityFramework.targets')" Text="$([System.String]::Format('$(ErrorText)', '..\packages\EntityFramework.6.4.4\build\EntityFramework.targets'))" />
+  </Target>
+  <Import Project="..\packages\EntityFramework.6.4.4\build\EntityFramework.targets" Condition="Exists('..\packages\EntityFramework.6.4.4\build\EntityFramework.targets')" />
+</Project>

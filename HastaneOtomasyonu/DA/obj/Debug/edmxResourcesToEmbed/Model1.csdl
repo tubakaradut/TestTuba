@@ -1,0 +1,134 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Schema Namespace="HastaneOtomasyonuModel" Alias="Self" annotation:UseStrongSpatialTypes="false" xmlns:annotation="http://schemas.microsoft.com/ado/2009/02/edm/annotation" xmlns:customannotation="http://schemas.microsoft.com/ado/2013/11/edm/customannotation" xmlns="http://schemas.microsoft.com/ado/2009/11/edm">
+  <EntityType Name="Brans">
+    <Key>
+      <PropertyRef Name="Id" />
+    </Key>
+    <Property Name="Id" Type="Int32" Nullable="false" />
+    <Property Name="BransAd" Type="String" MaxLength="50" FixedLength="false" Unicode="true" Nullable="false" />
+    <NavigationProperty Name="Doktor" Relationship="Self.FK_Doktor_Brans" FromRole="Brans" ToRole="Doktor" />
+    <NavigationProperty Name="Randevu" Relationship="Self.FK_Randevu_Brans" FromRole="Brans" ToRole="Randevu" />
+  </EntityType>
+  <EntityType Name="Doktor">
+    <Key>
+      <PropertyRef Name="Id" />
+    </Key>
+    <Property Name="Id" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="DoktorAd" Type="String" MaxLength="50" FixedLength="false" Unicode="true" Nullable="false" />
+    <Property Name="DoktorSoyad" Type="String" MaxLength="50" FixedLength="false" Unicode="true" Nullable="false" />
+    <Property Name="DoktorTc" Type="String" MaxLength="11" FixedLength="true" Unicode="false" />
+    <Property Name="DoktorTelefon" Type="String" MaxLength="11" FixedLength="true" Unicode="false" />
+    <Property Name="BransId" Type="Int32" Nullable="false" />
+    <NavigationProperty Name="Brans" Relationship="Self.FK_Doktor_Brans" FromRole="Doktor" ToRole="Brans" />
+    <NavigationProperty Name="Randevu" Relationship="Self.FK_Randevu_Doktor" FromRole="Doktor" ToRole="Randevu" />
+  </EntityType>
+  <EntityType Name="Hasta">
+    <Key>
+      <PropertyRef Name="Id" />
+    </Key>
+    <Property Name="Id" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="HastaAd" Type="String" MaxLength="50" FixedLength="false" Unicode="true" Nullable="false" />
+    <Property Name="HastaSoyad" Type="String" MaxLength="50" FixedLength="false" Unicode="true" Nullable="false" />
+    <Property Name="HastaTc" Type="String" MaxLength="11" FixedLength="true" Unicode="false" Nullable="false" />
+    <Property Name="HastaTelefon" Type="String" MaxLength="11" FixedLength="true" Unicode="false" />
+    <Property Name="HastaAdres" Type="String" MaxLength="50" FixedLength="false" Unicode="true" />
+    <Property Name="HastaCinsiyet" Type="String" MaxLength="10" FixedLength="true" Unicode="false" Nullable="false" />
+    <NavigationProperty Name="Randevu" Relationship="Self.FK_Randevu_Hasta" FromRole="Hasta" ToRole="Randevu" />
+  </EntityType>
+  <EntityType Name="Randevu">
+    <Key>
+      <PropertyRef Name="Id" />
+    </Key>
+    <Property Name="Id" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="RandevuTarih" Type="DateTime" Nullable="false" Precision="0" />
+    <Property Name="RandevuSaat" Type="String" MaxLength="10" FixedLength="true" Unicode="false" Nullable="false" />
+    <Property Name="BransId" Type="Int32" Nullable="false" />
+    <Property Name="DoktorId" Type="Int32" Nullable="false" />
+    <Property Name="HastaId" Type="Int32" Nullable="false" />
+    <Property Name="HastaSikayet" Type="String" MaxLength="50" FixedLength="false" Unicode="true" />
+    <NavigationProperty Name="Brans" Relationship="Self.FK_Randevu_Brans" FromRole="Randevu" ToRole="Brans" />
+    <NavigationProperty Name="Doktor" Relationship="Self.FK_Randevu_Doktor" FromRole="Randevu" ToRole="Doktor" />
+    <NavigationProperty Name="Hasta" Relationship="Self.FK_Randevu_Hasta" FromRole="Randevu" ToRole="Hasta" />
+  </EntityType>
+  <EntityType Name="sysdiagrams">
+    <Key>
+      <PropertyRef Name="diagram_id" />
+    </Key>
+    <Property Name="name" Type="String" MaxLength="128" FixedLength="false" Unicode="true" Nullable="false" />
+    <Property Name="principal_id" Type="Int32" Nullable="false" />
+    <Property Name="diagram_id" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="version" Type="Int32" />
+    <Property Name="definition" Type="Binary" MaxLength="Max" FixedLength="false" />
+  </EntityType>
+  <Association Name="FK_Doktor_Brans">
+    <End Role="Brans" Type="Self.Brans" Multiplicity="1" />
+    <End Role="Doktor" Type="Self.Doktor" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="Brans">
+        <PropertyRef Name="Id" />
+      </Principal>
+      <Dependent Role="Doktor">
+        <PropertyRef Name="BransId" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK_Randevu_Brans">
+    <End Role="Brans" Type="Self.Brans" Multiplicity="1" />
+    <End Role="Randevu" Type="Self.Randevu" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="Brans">
+        <PropertyRef Name="Id" />
+      </Principal>
+      <Dependent Role="Randevu">
+        <PropertyRef Name="BransId" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK_Randevu_Doktor">
+    <End Role="Doktor" Type="Self.Doktor" Multiplicity="1" />
+    <End Role="Randevu" Type="Self.Randevu" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="Doktor">
+        <PropertyRef Name="Id" />
+      </Principal>
+      <Dependent Role="Randevu">
+        <PropertyRef Name="DoktorId" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK_Randevu_Hasta">
+    <End Role="Hasta" Type="Self.Hasta" Multiplicity="1" />
+    <End Role="Randevu" Type="Self.Randevu" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="Hasta">
+        <PropertyRef Name="Id" />
+      </Principal>
+      <Dependent Role="Randevu">
+        <PropertyRef Name="HastaId" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <EntityContainer Name="HastaneOtomasyonuEntities" annotation:LazyLoadingEnabled="true">
+    <EntitySet Name="Brans" EntityType="Self.Brans" />
+    <EntitySet Name="Doktor" EntityType="Self.Doktor" />
+    <EntitySet Name="Hasta" EntityType="Self.Hasta" />
+    <EntitySet Name="Randevu" EntityType="Self.Randevu" />
+    <EntitySet Name="sysdiagrams" EntityType="Self.sysdiagrams" />
+    <AssociationSet Name="FK_Doktor_Brans" Association="Self.FK_Doktor_Brans">
+      <End Role="Brans" EntitySet="Brans" />
+      <End Role="Doktor" EntitySet="Doktor" />
+    </AssociationSet>
+    <AssociationSet Name="FK_Randevu_Brans" Association="Self.FK_Randevu_Brans">
+      <End Role="Brans" EntitySet="Brans" />
+      <End Role="Randevu" EntitySet="Randevu" />
+    </AssociationSet>
+    <AssociationSet Name="FK_Randevu_Doktor" Association="Self.FK_Randevu_Doktor">
+      <End Role="Doktor" EntitySet="Doktor" />
+      <End Role="Randevu" EntitySet="Randevu" />
+    </AssociationSet>
+    <AssociationSet Name="FK_Randevu_Hasta" Association="Self.FK_Randevu_Hasta">
+      <End Role="Hasta" EntitySet="Hasta" />
+      <End Role="Randevu" EntitySet="Randevu" />
+    </AssociationSet>
+  </EntityContainer>
+</Schema>

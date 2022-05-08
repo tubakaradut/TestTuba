@@ -1,0 +1,45 @@
+﻿.background-image {
+    background-image: url( "https://st3.depositphotos.com/5794592/13757/v/450/depositphotos_137570346-stock-illustration-medical-staff-standing-in-front.jpg");
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-position: center;
+    width: 100%
+}
+
+.background {
+    height: 500px;
+    flex-direction: row;
+    display: flex;
+    justify-content: space-between;
+    margin: auto 3%;
+}
+
+.navbar-light .navbar-nav .show > .nav-link, .navbar-light .navbar-nav .nav-link.active {
+    color: white;
+}
+
+.navbar-light .navbar-brand {
+    color: white;
+}
+
+    .navbar-light .navbar-brand:hover, .navbar-light .navbar-brand:focus {
+        color: white;
+    }
+
+.card {
+    margin-top: 50px;
+}
+
+.custom-card {
+    width: 30rem !important;
+    padding: 10px;
+    margin-top: 60px;
+}
+
+.custom-card-title {
+    text-align: center;
+}
+
+.dropdown, .bootstrap-select {
+    width: 100% !important;
+}

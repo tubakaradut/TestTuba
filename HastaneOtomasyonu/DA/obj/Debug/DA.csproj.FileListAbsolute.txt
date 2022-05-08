@@ -1,0 +1,12 @@
+C:\Users\Tuba\Desktop\HastaneOtomasyonu\DA\bin\Debug\DA.dll.config
+C:\Users\Tuba\Desktop\HastaneOtomasyonu\DA\bin\Debug\DA.dll
+C:\Users\Tuba\Desktop\HastaneOtomasyonu\DA\bin\Debug\DA.pdb
+C:\Users\Tuba\Desktop\HastaneOtomasyonu\DA\bin\Debug\EntityFramework.dll
+C:\Users\Tuba\Desktop\HastaneOtomasyonu\DA\bin\Debug\EntityFramework.SqlServer.dll
+C:\Users\Tuba\Desktop\HastaneOtomasyonu\DA\bin\Debug\EntityFramework.xml
+C:\Users\Tuba\Desktop\HastaneOtomasyonu\DA\bin\Debug\EntityFramework.SqlServer.xml
+C:\Users\Tuba\Desktop\HastaneOtomasyonu\DA\obj\Debug\DA.csproj.CoreCompileInputs.cache
+C:\Users\Tuba\Desktop\HastaneOtomasyonu\DA\obj\Debug\DA.csproj.CopyComplete
+C:\Users\Tuba\Desktop\HastaneOtomasyonu\DA\obj\Debug\DA.dll
+C:\Users\Tuba\Desktop\HastaneOtomasyonu\DA\obj\Debug\DA.pdb
+C:\Users\Tuba\Desktop\HastaneOtomasyonu\DA\obj\Debug\DA.csproj.AssemblyReference.cache

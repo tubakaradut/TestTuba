@@ -1,0 +1,15 @@
+C:\Users\Tuba\Desktop\HamburgerProjesi\Business\bin\Debug\Business.dll.config
+C:\Users\Tuba\Desktop\HamburgerProjesi\Business\bin\Debug\Business.dll
+C:\Users\Tuba\Desktop\HamburgerProjesi\Business\bin\Debug\Business.pdb
+C:\Users\Tuba\Desktop\HamburgerProjesi\Business\bin\Debug\DataAcces.dll
+C:\Users\Tuba\Desktop\HamburgerProjesi\Business\bin\Debug\EntityFramework.dll
+C:\Users\Tuba\Desktop\HamburgerProjesi\Business\bin\Debug\EntityFramework.SqlServer.dll
+C:\Users\Tuba\Desktop\HamburgerProjesi\Business\bin\Debug\DataAcces.pdb
+C:\Users\Tuba\Desktop\HamburgerProjesi\Business\bin\Debug\DataAcces.dll.config
+C:\Users\Tuba\Desktop\HamburgerProjesi\Business\bin\Debug\EntityFramework.xml
+C:\Users\Tuba\Desktop\HamburgerProjesi\Business\bin\Debug\EntityFramework.SqlServer.xml
+C:\Users\Tuba\Desktop\HamburgerProjesi\Business\obj\Debug\Business.csproj.AssemblyReference.cache
+C:\Users\Tuba\Desktop\HamburgerProjesi\Business\obj\Debug\Business.csproj.CoreCompileInputs.cache
+C:\Users\Tuba\Desktop\HamburgerProjesi\Business\obj\Debug\Business.csproj.CopyComplete
+C:\Users\Tuba\Desktop\HamburgerProjesi\Business\obj\Debug\Business.dll
+C:\Users\Tuba\Desktop\HamburgerProjesi\Business\obj\Debug\Business.pdb

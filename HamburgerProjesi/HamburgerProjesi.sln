@@ -1,0 +1,55 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.32228.343
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DataAcces", "DataAcces\DataAcces.csproj", "{13745125-10EC-49FB-A6E4-602E12F14ED0}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Business", "Business\Business.csproj", "{C29B7D5F-7EC0-4B20-8C41-85919C1D7E8E}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "UIMenu", "UIMenu\UIMenu.csproj", "{5156E0B9-3F98-47E3-9D21-18E2B560FB0C}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "BusinessLayer", "BusinessLayer", "{6245FB94-37AF-4332-BA9C-C403A195C1FB}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "DataAccessLayer", "DataAccessLayer", "{7BC36AD9-AD09-4A30-8C3D-328EF1BB6B7D}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "UILayer", "UILayer", "{803C6411-7E19-4199-8850-EB1DD66AD0B6}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "UIMenuWeb", "UIMenuWeb\UIMenuWeb.csproj", "{CD34BD71-3963-48B5-BAFE-2A62400A095C}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{13745125-10EC-49FB-A6E4-602E12F14ED0}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{13745125-10EC-49FB-A6E4-602E12F14ED0}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{13745125-10EC-49FB-A6E4-602E12F14ED0}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{13745125-10EC-49FB-A6E4-602E12F14ED0}.Release|Any CPU.Build.0 = Release|Any CPU
+		{C29B7D5F-7EC0-4B20-8C41-85919C1D7E8E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C29B7D5F-7EC0-4B20-8C41-85919C1D7E8E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C29B7D5F-7EC0-4B20-8C41-85919C1D7E8E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C29B7D5F-7EC0-4B20-8C41-85919C1D7E8E}.Release|Any CPU.Build.0 = Release|Any CPU
+		{5156E0B9-3F98-47E3-9D21-18E2B560FB0C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{5156E0B9-3F98-47E3-9D21-18E2B560FB0C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{5156E0B9-3F98-47E3-9D21-18E2B560FB0C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{5156E0B9-3F98-47E3-9D21-18E2B560FB0C}.Release|Any CPU.Build.0 = Release|Any CPU
+		{CD34BD71-3963-48B5-BAFE-2A62400A095C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{CD34BD71-3963-48B5-BAFE-2A62400A095C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{CD34BD71-3963-48B5-BAFE-2A62400A095C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{CD34BD71-3963-48B5-BAFE-2A62400A095C}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{13745125-10EC-49FB-A6E4-602E12F14ED0} = {7BC36AD9-AD09-4A30-8C3D-328EF1BB6B7D}
+		{C29B7D5F-7EC0-4B20-8C41-85919C1D7E8E} = {6245FB94-37AF-4332-BA9C-C403A195C1FB}
+		{5156E0B9-3F98-47E3-9D21-18E2B560FB0C} = {803C6411-7E19-4199-8850-EB1DD66AD0B6}
+		{CD34BD71-3963-48B5-BAFE-2A62400A095C} = {803C6411-7E19-4199-8850-EB1DD66AD0B6}
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {C5BE3489-83CE-4628-AAA7-91FCB29BA6B2}
+	EndGlobalSection
+EndGlobal

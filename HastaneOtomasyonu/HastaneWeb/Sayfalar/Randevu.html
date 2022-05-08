@@ -1,0 +1,147 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8" />
+    <title>Randevu Sayfası</title>
+    <link href="../Content/bootstrap.css" rel="stylesheet" />
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-select@1.13.14/dist/css/bootstrap-select.min.css">  <!--bootstrap select kütüphanesi dropdown gelişmiş kütüphanesi-->
+    <link href="../Content/bootstrap-datepicker.css" rel="stylesheet" /><!--tarih için kütüphane-->
+    <link href="../Content/custom.css" rel="stylesheet" /><!--bizim kendi oluşturdugumuz html style sayfamız-->
+</head>
+<body>
+    <nav class="navbar navbar-expand-lg navbar-dark bg-primary">
+        <div class="container-fluid">
+            <a class="navbar-brand beyaz-yazi" href="/index.html">Bizim Hastane</a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <ul class="navbar-nav ml-auto">
+                    <li class="nav-item">
+                        <a class="nav-link active" aria-current="page" href="/Sayfalar/Brans.html">BRANŞLAR</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link active" aria-current="page" href="/Sayfalar/Doktor.html">DOKTORLAR</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link active" aria-current="page" href="/Sayfalar/HastaGiris.html">HASTA GİRİŞİ</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link active" aria-current="page" href="/Sayfalar/Randevu.html">RANDEVU AL</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+    <div class="container h-100">
+        <div class="row d-flex justify-content-center align-items-center h-100" style="margin: 0 auto;width: 1000px;">
+            <div class="col-lg-12 col-xl-11">
+                <div class="card text-black" style="border-radius: 25px;">
+                    <div class="card-body p-md-5">
+                        <div class="row justify-content-center">
+                            <div class="col-md-10 col-lg-6 col-xl-5 order-2 order-lg-1">
+
+                                <p class="text-center h1 fw-bold mb-3 mx-1 mx-md-2 mt-2">Randevu Al</p>
+
+                                <form class="mx-1 mx-md-2">
+
+                                    <div class="d-flex flex-row align-items-center mb-3">
+
+                                        <div class="form-outline flex-fill mb-0">
+                                            <select class="selectpicker" data-style="btn-outline-primary">
+                                                <option>Branş Seçiniz...</option>
+                                                <option>Ortopedi ve Travmatoloji</option>
+                                                <option>Göğüs Hastalıkları</option>
+                                                <option>Kadın-Doğum Hastalıkları</option>
+                                                <option>Genel Cerrahi</option>
+                                                <option>Beyin Cerrahi</option>
+                                            </select>
+                                        </div>
+                                    </div>
+
+                                    <div class="d-flex flex-row align-items-center mb-3">
+                                        <i class="fas fa-envelope fa-lg me-3 fa-fw"></i>
+                                        <div class="form-outline flex-fill mb-0">
+                                            <div class="form-outline flex-fill mb-0">
+                                                <select class="selectpicker" data-style="btn-outline-primary">
+                                                    <option>Doktor Seçiniz...</option>
+                                                    <option>Op.Dr.Berkan Buğday</option>
+                                                    <option>Op.Dr.Tolga Atalay</option>
+                                                    <option>Op.Dr.Eda Ertaş</option>
+                                                    <option>Op.Dr.Hasan Hüseyin Karakaya</option>
+                                                    <option>Uzm.Dr.Mehmet Karadut</option>
+                                                    <option>Op.Dr.Zeynep Tüfek</option>
+                                                    <option>Op.Dr.Yakup Gezer</option>
+                                                    <option>Op.Dr.Hatice Sevgi</option>
+                                                    <option>Op.Dr.Ecem Ömür</option>
+                                                    <option>Uzm.Dr.Sami Poyraz</option>
+                                                    <option></option>
+                                                </select>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="d-flex flex-row align-items-center mb-3">
+                                        <i class="fas fa-lock fa-lg me-3 fa-fw"></i>
+                                        <div class="form-outline flex-fill mb-0">
+                                            <input placeholder="Tarih Seçiniz..." type="text" id="datepicker" class="form-control btn-outline-primary">
+                                        </div>
+                                    </div>
+                                    <div class="d-flex flex-row align-items-center mb-3">
+                                        <i class="fas fa-key fa-lg me-3 fa-fw"></i>
+                                        <div class="form-outline flex-fill mb-0">
+                                            <select class="selectpicker" data-live-search="true" data-dropup-auto="false" data-style="btn-outline-primary">
+                                                <option>Saat Seçiniz...</option>
+                                                <option>08:00</option>
+                                                <option>08:30</option>
+                                                <option>09:00</option>
+                                                <option>09:30</option>
+                                                <option>10:00</option>
+                                                <option>10:30</option>
+                                                <option>11:00</option>
+                                                <option>11:30</option>
+                                                <option>12:00</option>
+                                                <option>13:00</option>
+                                                <option>13:30</option>
+                                                <option>14:00</option>
+                                                <option>14:30</option>
+                                                <option>15:00</option>
+                                                <option>15:30</option>
+                                                <option>16:00</option>
+                                                <option>16:30</option>
+                                            </select>
+                                        </div>
+                                    </div>
+                                    <div class="d-flex justify-content-center mx-4 mb-3 mb-lg-4">
+                                        <button type="button" class="btn btn-primary btn-lg">Randevu Oluştur</button>
+                                    </div>
+                                </form>
+                            </div>
+                            <div class="col-md-10 col-lg-6 col-xl-7 d-flex align-items-center order-1 order-lg-2">
+                                <img src="https://st.depositphotos.com/1031174/1254/i/950/depositphotos_12541400-stock-photo-time-management.jpg" class="img-fluid" style="border-radius:20px;" alt="Sample image">
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+    <script src="../Scripts/jquery-3.0.0.js"></script><!--bootstrap js kullanabilmek için jquery eklenir-->
+    <script src="../Scripts/umd/popper.js"></script><!--kodlarımızı aldıgımız yerden mecbur yüklemeiz grekiyormus ne oldugu ?-->
+    <script src="../Scripts/bootstrap.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap-select@1.13.14/dist/js/bootstrap-select.min.js"></script>
+    <script src="../Scripts/bootstrap-datepicker.js"></script><!--tarih için kullanılan js kütüphanesi dinamik olması için-->
+    <script src="../Scripts/locales/bootstrap-datepicker.tr.min.js"></script><!--türkçe formatında kullanılması için-->
+    <script> 
+        $('#datepicker').datepicker({
+            format: "dd/mm/yyyy",
+            language: "tr",
+            orientation: "bottom auto",
+            autoclose: true,
+        });
+
+    </script>
+</body>
+</html>
