@@ -1,0 +1,65 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8" />
+    <title></title>
+    <link href="Content/bootstrap.css" rel="stylesheet" />
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/2.11.5/umd/popper.min.js"></script>
+    <script src="Scripts/bootstrap.js"></script>
+    <script src="Kitap.js"></script>
+</head>
+<body>
+    <div class="container">
+        <div class="row" style="margin-top:50px;">
+            <div class="col-md-4">
+                <div class="card">
+                    <div class="card-header">Kitap Bilgileri</div>
+                    <div class="card-body">
+                        <div class="mt-2"><h6>Kitap Adı</h6></div>
+                        <input type="text" class="form-control" id="kitapadi" />
+                        <div class="mt-2"><h6>Yazarı</h6></div>
+                        <input type="text" class="form-control" id="yazaradi" />
+                        <div class="mt-2"><h6>Fiyatı</h6></div>
+                        <input type="text" class="form-control" id="fiyat" />
+                        <div class="mt-2"><h6>Yayın Evi</h6></div>
+                        <div class="dropdown">
+                            <button class="btn btn-outline-danger dropdown-header" type="button" id="dropdownMenuButton1" data-bs-toggle="dropdown" aria-expanded="false" style="width:300px;">
+                            </button>
+                            <ul class="dropdown-menu" aria-labelledby="dropdownMenuButton1">
+                                <li><a class="dropdown-item" href="#">Can Yayınları</a></li>
+                                <li><a class="dropdown-item" href="#">İş Bankası Yayınları</a></li>
+                                <li><a class="dropdown-item" href="#">Kronik Yayınları</a></li>
+                            </ul>
+                        </div>
+                        <button class="btn btn-danger mt-3" id="buton">Ekle</button>
+
+
+                    </div>
+                </div>
+            </div>
+
+            <div class="col-md-8">
+                <div class="card">
+                    <div class="card-header">Kitap Tablosu</div>
+                    <div class="card-body">
+                        <table class="table table-bordered">
+                            <thead>
+                                <tr>
+                                    <th>Id</th>
+                                    <th>KitapAdı</th>
+                                    <th>Yazar</th>
+                                    <th>Fiyat</th>
+                                </tr>
+                            </thead>
+                            <tbody id="kitaptable">
+                            </tbody>
+                        </table>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+    </div>
+</body>
+</html>
