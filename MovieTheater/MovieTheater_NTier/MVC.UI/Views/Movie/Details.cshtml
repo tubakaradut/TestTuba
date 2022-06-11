@@ -1,0 +1,158 @@
+﻿@using DAL.Entities;
+@model Movie
+@{
+    ViewBag.Title = "Details";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+
+<div class="row">
+    <div class="col-md-9">
+
+        <section class="panel">
+            <div class="panel-body">
+                <div class="col-md-6">
+                    <div class="pro-img-details">
+                        @*@if (Model.ProductImagePath != null)
+                            {
+                                <img src="~/Content/image/product/@Model.ProductImagePath" alt="">
+                            }
+                            else
+                            {
+                                <img src="https://kapaklitaxi.com/wp-content/uploads/2019/05/ef3-placeholder-image.jpg" alt="">
+
+                            }*@
+                    </div>
+                    @*<div class="pro-img-list">
+                            <a href="#">
+                                <img src="~/Content/img/product-list/pro-thumb-1.jpg" alt="">
+                            </a>
+                            <a href="#">
+                                <img src="~/Content/img/product-list/pro-thumb-2.jpg" alt="">
+                            </a>
+                            <a href="#">
+                                <img src="~/Content/img/product-list/pro-thumb-3.jpg" alt="">
+                            </a>
+                            <a href="#">
+                                <img src="~/Content/img/product-list/pro-thumb-1.jpg" alt="">
+                            </a>
+                        </div>*@
+                </div>
+                <div class="col-md-6">
+                    <h4 class="pro-d-title">
+                        <a href="#" class="">
+                            @Model.MovieName
+                        </a>
+                    </h4>
+                    <p>
+                        @Model.Description
+                    </p>
+                    <div class="product_meta">
+                        <span class="posted_in">
+                            <strong>Süre:</strong>
+                            <a rel="tag" href="#">@Model.Duration</a>
+                        </span>
+                    </div>
+                    <div class="product_meta">
+                        <span class="posted_in">
+                            <strong>Categories:</strong>
+                            <ul>
+                                @foreach (var movieCategory in Model.MovieCategories)
+                                {
+                                    <li>@movieCategory.Category.CategoryName</li>
+                                }
+                            </ul>
+                            @*<a rel="tag" href="#">@Model.Duraction</a>*@
+                        </span>
+                    </div>
+                    <p>
+                        <button class="btn btn-round btn-danger" type="button"><i class="icon-shopping-cart"></i> Film Seç</button>
+                    </p>
+                </div>
+            </div>
+        </section>
+
+        <section class="panel">
+            <header class="panel-heading tab-bg-dark-navy-blue">
+                <ul class="nav nav-tabs ">
+                    <li class="active">
+                        <a data-toggle="tab" href="#description">
+                            Description
+                        </a>
+                    </li>
+                    <li>
+                        <a data-toggle="tab" href="#reviews">
+                            Reviews
+                        </a>
+                    </li>
+
+                </ul>
+            </header>
+            <div class="panel-body">
+                <div class="tab-content tasi-tab">
+                    <div id="description" class="tab-pane active col-md-12">
+                        <div class="col-md-6">
+                            @foreach (var theater in Model.Theaters)
+                            {
+                                TimeSpan dateDiff = theater.Week.LastDay.Subtract(theater.Week.FirstDay);
+                                <article class="media">
+                                    <div class="media-body">
+                                        <h4 class="cmt-head sessionDate"><i class="icon-time"></i> Bugün</h4>
+                                    </div>
+                                    @for (int i = 1; i <= dateDiff.Days; i++)
+                                    {
+                                        <div class="media-body">
+                                            <h4 class="cmt-head sessionDate"><i class="icon-time"></i> @theater.Week.FirstDay.AddDays(i).ToLongDateString()</h4>
+                                        </div>
+                                    }
+                                </article>
+                            }
+                        </div>
+                        <div class="col-md-6 sessionTime">
+                            <article class="media">
+                                @foreach (var session in ViewBag.Sessions)
+                                {
+                                    <div class="media-body">
+                                        <h4 class="cmt-head sessionTime"><i class="icon-time"></i> @session.Duration</h4>
+                                    </div>
+                                }
+                            </article>
+                        </div>
+                    </div>
+                    <div id="reviews" class="tab-pane">
+                        <article class="media">
+                            <a class="pull-left thumb p-thumb">
+                                <img src="img/avatar-mini.jpg">
+                            </a>
+                            <div class="media-body">
+                                <a href="#" class="cmt-head">Lorem ipsum dolor sit amet, consectetur adipiscing elit.</a>
+                                <p> <i class="icon-time"></i> 1 hours ago</p>
+                            </div>
+                        </article>
+                        <article class="media">
+                            <a class="pull-left thumb p-thumb">
+                                <img src="img/avatar-mini2.jpg">
+                            </a>
+                            <div class="media-body">
+                                <a href="#" class="cmt-head">Nulla vel metus scelerisque ante sollicitudin commodo</a>
+                                <p> <i class="icon-time"></i> 23 mins ago</p>
+                            </div>
+                        </article>
+                        <article class="media">
+                            <a class="pull-left thumb p-thumb">
+                                <img src="img/avatar-mini3.jpg">
+                            </a>
+                            <div class="media-body">
+                                <a href="#" class="cmt-head">Donec lacinia congue felis in faucibus. </a>
+                                <p> <i class="icon-time"></i> 15 mins ago</p>
+                            </div>
+                        </article>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+
+    </div>
+</div>
+
+
