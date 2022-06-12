@@ -54,6 +54,7 @@
     <Compile Include="Base\BaseService.cs" />
     <Compile Include="Concrete\AppUserService.cs" />
     <Compile Include="Concrete\CategoryService.cs" />
+    <Compile Include="Concrete\MovieCategoryService.cs" />
     <Compile Include="Concrete\MovieService.cs" />
     <Compile Include="Concrete\SaloonService.cs" />
     <Compile Include="Concrete\SessionService.cs" />

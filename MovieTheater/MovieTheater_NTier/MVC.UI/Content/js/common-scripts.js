@@ -115,11 +115,22 @@ var Script = function () {
 
     // session time open close
     $(".sessionDate").click(function () {
+        $(".sessionDate").removeClass("active");
+        $(".sessionTime").removeClass("active");
+        $(this).addClass("active");
         $(".sessionTime").css("display", "block");
+        $("#spinner4").css("display", "none");
+        $(".buyTicket").css("display", "none");
     });
 
     $(".sessionTime h4").click(function () {
-        //saate týklama iþlemi
+        $(".sessionTime").removeClass("active");
+        $(this).addClass("active");
+        $("#spinner4").css("display", "block");
+        $(".buyTicket").css("display", "block");
+        $('#spinner4').spinner({ value: 1, step: 1, min: 1, max: 200 });
+
+        //saate týklama iþlemigit clonegit
 
     });
 }();

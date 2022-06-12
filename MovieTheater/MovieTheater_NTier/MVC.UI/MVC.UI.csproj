@@ -1752,8 +1752,10 @@
     <Compile Include="Areas\Admin\AdminAreaRegistration.cs" />
     <Compile Include="Areas\Admin\Controllers\CategoryController.cs" />
     <Compile Include="Areas\Admin\Controllers\HomeController.cs" />
+    <Compile Include="Areas\Admin\Controllers\MovieCategoryController.cs" />
     <Compile Include="Areas\Admin\Controllers\MovieController.cs" />
     <Compile Include="Areas\Admin\Controllers\SaloonController.cs" />
+    <Compile Include="Areas\Admin\Controllers\TheaterController.cs" />
     <Compile Include="Areas\Admin\Views\WeekController.cs" />
     <Compile Include="Controllers\HomeController.cs" />
     <Compile Include="Controllers\MovieController.cs" />
@@ -1762,6 +1764,8 @@
     <Compile Include="Global.asax.cs">
       <DependentUpon>Global.asax</DependentUpon>
     </Compile>
+    <Compile Include="Modelss\Cart.cs" />
+    <Compile Include="Modelss\CartItem.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="VMClasses\AppUserVM.cs" />
   </ItemGroup>
@@ -1932,6 +1936,12 @@
     <Content Include="Areas\Admin\Views\Movie\Index.cshtml" />
     <Content Include="Areas\Admin\Views\Movie\Create.cshtml" />
     <Content Include="Areas\Admin\Views\Movie\Update.cshtml" />
+    <Content Include="Areas\Admin\Views\Theater\Index.cshtml" />
+    <Content Include="Areas\Admin\Views\Theater\Create.cshtml" />
+    <Content Include="Areas\Admin\Views\Theater\Update.cshtml" />
+    <Content Include="Areas\Admin\Views\MovieCategory\Index.cshtml" />
+    <Content Include="Areas\Admin\Views\MovieCategory\Create.cshtml" />
+    <Content Include="Areas\Admin\Views\MovieCategory\Update.cshtml" />
     <None Include="packages.config" />
     <Content Include="Views\_ViewStart.cshtml" />
     <Content Include="Views\Shared\_Layout.cshtml" />
@@ -1940,6 +1950,8 @@
     <Content Include="Views\Home\Pending.cshtml" />
     <Content Include="Views\Home\index.cshtml" />
     <Content Include="Views\Movie\Details.cshtml" />
+    <Content Include="Views\Home\MyCart.cshtml" />
+    <Content Include="Views\Home\CompleteCart.cshtml" />
     <None Include="Web.Debug.config">
       <DependentUpon>Web.config</DependentUpon>
     </None>

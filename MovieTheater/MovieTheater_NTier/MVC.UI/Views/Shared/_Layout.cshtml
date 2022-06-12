@@ -299,7 +299,9 @@
             <section class="wrapper">
 
                 <!--Start RenderBody-->
+
                 @RenderBody()
+
                 <!--End RenderBody-->
 
             </section>
@@ -329,6 +331,7 @@
     <script src="~/Content/js/owl.carousel.js"></script>
     <script src="~/Content/js/jquery.customSelect.min.js"></script>
     <script src="~/Content/js/respond.min.js"></script>
+    <script type="text/javascript" src="~/Content/assets/fuelux/js/spinner.min.js"></script>
 
     <script class="include" type="text/javascript" src="~/Content/js/jquery.dcjqaccordion.2.7.js"></script>
 
@@ -362,7 +365,7 @@
         });
 
     </script>
-
+    @RenderSection("Script",false)
 </body>
 </html>
 

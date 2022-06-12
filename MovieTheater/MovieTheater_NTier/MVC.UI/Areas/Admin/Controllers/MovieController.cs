@@ -13,7 +13,7 @@ namespace MVC.UI.Areas.Admin.Controllers
         MovieService movieService = new MovieService();
         public ActionResult Index()
         {
-            ViewBag.CategoryService = movieService;
+           
             return View(movieService.GetList());
         }
 

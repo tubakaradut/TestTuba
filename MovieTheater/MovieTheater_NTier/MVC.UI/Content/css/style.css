@@ -4721,10 +4721,20 @@ tr.odd.gradeX td.sorting_1, tr.even.gradeX td.sorting_1, table.display tr.even.g
     cursor: pointer
 }
 
-    .sessionDate:hover {
-        color: #FF6C60
+    .sessionDate.active {
+        color: #FF6C60;
     }
 
+    .sessionDate:hover {
+        color: #FF6C60;
+    }
+
+#spinner4{
+    display:none;
+}
+.buyTicket{
+    display:none;
+}
 .sessionTime h4 {
     cursor: pointer;
     display: none;
@@ -4732,4 +4742,8 @@ tr.odd.gradeX td.sorting_1, tr.even.gradeX td.sorting_1, table.display tr.even.g
 
     .sessionTime h4:hover {
         color: #FF6C60
+    }
+
+    .sessionTime h4.active {
+        color: #FF6C60;
     }

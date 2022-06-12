@@ -25,9 +25,11 @@
 
                             @*}*@
                             <br />
-                            <a href="/Home/AddToCart/@movie.Id" class="adtocart">
-                                <i class="icon-shopping-cart"></i>
-                            </a>
+                            @*<a href="/Home/AddToCart/@movie.Id" class="adtocart">
+                                <i class="icon-apple"></i>*@
+
+                                @Html.ActionLink("Bilet Al", "AddToCart", new { id = movie.Id }, new { @class = "btn btn-dark mt-2" })
+                            @*</a>*@
                         </div>
 
                         <div class="panel-body text-center">
@@ -37,7 +39,7 @@
                                 @Html.ActionLink(movie.MovieName, "Details", "Movie", new { id = movie.Id }, new { @class = "pro-title" })
                             </h4>
                            
-                            <p class="text-dark">@movie.Duraction dakika</p>
+                            <p class="text-dark">@movie.Duration dakika</p>
                         </div>
                     </section>
                 </div>

@@ -14,7 +14,6 @@
             AutomaticMigrationsEnabled = true;
         }
 
-     
         protected override void Seed(DAL.Contextt.ProjeContext context)
         {
             //Kategori ekleme
@@ -190,3 +189,4 @@
         }
     }
 }
+

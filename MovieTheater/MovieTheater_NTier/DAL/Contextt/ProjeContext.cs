@@ -8,7 +8,9 @@ namespace DAL.Contextt
     {
         public ProjeContext()
         {
-            Database.Connection.ConnectionString = "server=DESKTOP-PAHPBA7;Database=MovieDB;uid=sa;pwd=123456";/* Database.Connection.ConnectionString = "server=REDHACK;Database=MovieDB;integrated security=true";*/
+            /*  Database.Connection.ConnectionString = "server=DESKTOP-PAHPBA7;Database=MovieDB;uid=sa;pwd=123456";/* *//*Database.Connection.ConnectionString = "server=REDHACK;Database=MovieDB;integrated security=true";*/
+            
+Database.Connection.ConnectionString = "server=.\\SQLEXPRESS;database=MovieTheater;Trusted_Connection=true;";
         }
 
         public DbSet<Movie> Movies { get; set; }

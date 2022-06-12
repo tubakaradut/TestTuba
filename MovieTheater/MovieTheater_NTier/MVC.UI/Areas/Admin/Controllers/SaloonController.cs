@@ -15,7 +15,7 @@ namespace MVC.UI.Areas.Admin.Controllers
 
         public ActionResult Index()
         {
-            ViewBag.SaloonService = saloonService;
+            
             return View(saloonService.GetList());
         }
 
